@@ -1,4 +1,4 @@
-var cacheName   = 'cache-8a';
+var cacheName   = 'cache-9';
 
 self.addEventListener('install', e => {
   console.log('[ServiceWorker] Install ' + cacheName);
