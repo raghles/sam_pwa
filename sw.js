@@ -5,16 +5,14 @@ self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheName).then(cache => {
       return cache.addAll([
-        '/',
-        'index.html',
-        '/index.html',
-        '/home.html',
-        'home.html',
-        '/js/main.js',
-        '/img/index.jpg',
-        '/img/home.jpg',
-        '/imgs/index.jpg',
-        '/imgs/home.jpg',
+        '/sam_pwa/',
+        '/sam_pwa/index.html',
+        '/sam_pwa/home.html',
+        '/sam_pwa/js/main.js',
+        '/sam_pwa/img/index.jpg',
+        '/sam_pwa/img/home.jpg',
+        '/sam_pwa/imgs/index.jpg',
+        '/sam_pwa/imgs/home.jpg',
       ]);
     })
   )
