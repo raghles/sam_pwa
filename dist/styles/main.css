@@ -1,0 +1,130 @@
+.content-container {
+  background-color: #eee !important; }
+
+.content-container .md-custom-padding {
+  padding: 2% 5% 1%; }
+
+.content-container .md-custom-padding .heading-container {
+  max-height: 28px;
+  padding: 1px; }
+
+.content-container .md-custom-padding .heading-container h4,
+.content-container .md-custom-padding .heading-container p {
+  font-weight: 500; }
+
+.content-container .md-custom-padding .heading-container h4 {
+  font-size: 17px;
+  color: #4a4a4a; }
+
+.content-container .md-custom-padding .heading-container p {
+  font-size: 13px;
+  color: #4a4a4a; }
+
+.content-container .md-custom-padding sales-bar {
+  width: 100%;
+  padding: 6px 0; }
+
+.content-container md-card {
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5); }
+
+.content-container md-card .chart-target {
+  position: relative;
+  padding: 0;
+  background: #666;
+  border-radius: 2px;
+  color: #fff;
+  padding: 3px 10px;
+  top: -1.3em; }
+
+.content-container md-card .chart-target:after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 7px 0;
+  border-color: #666 transparent;
+  display: block;
+  width: 0;
+  left: 50%; }
+
+.content-container .footerbtn {
+  margin: 1em;
+  width: 100%;
+  padding: 6px 20px; }
+
+.content-container .footerbtn .footerbtn-label {
+  font-weight: 600;
+  font-size: larger;
+  color: #fff;
+  cursor: pointer; }
+
+sales-bar .btn {
+  width: 100%;
+  background-color: #fff; }
+
+sales-bar .rxBar {
+  border-left: 4px solid #50a5de; }
+
+sales-bar .md-button {
+  margin: 0 !important; }
+
+sales-bar .md-button .salesbtn {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+          flex-direction: row; }
+
+sales-bar .md-button .salesbtn .sales {
+  line-height: 20px;
+  padding: 10px 20px;
+  text-align: left; }
+
+sales-bar .md-button .salesbtn .sales .value {
+  font-size: 14px !important;
+  font-weight: 600;
+  color: #9b9b9b !important; }
+
+sales-bar .md-button .salesbtn .sales p {
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 3px;
+  text-transform: capitalize;
+  font-weight: 400; }
+
+sales-bar .md-button .salesbtn .sales-rx {
+  padding: 20px 20px 10px !important; }
+
+sales-bar .md-button .salesbtn .responsive-circle {
+  display: inline-block;
+  vertical-align: baseline;
+  white-space: nowrap;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  width: 60px;
+  min-width: 20px;
+  margin: 6px; }
+
+sales-bar .md-button .salesbtn .responsive-circle:after {
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 0;
+  padding-bottom: 100%;
+  width: 100%; }
+
+sales-bar .md-button .salesbtn .responsive-circle div {
+  color: #fff;
+  float: left;
+  line-height: 1em;
+  margin-top: -.5em;
+  padding-top: 50%;
+  text-align: center;
+  width: 100%; }
+
+sales-bar .md-button .salesbtn .percentage-circle-gray:after {
+  background-color: #bdbdbd; }
+
+sales-bar .md-button .salesbtn .percentage-circle-rxcolor:after {
+  background-color: #50a5de; }
